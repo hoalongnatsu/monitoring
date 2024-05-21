@@ -1,0 +1,5 @@
+# helm repo add grafana https://grafana.github.io/helm-charts
+# helm install -n monitoring -f values.yaml grafana grafana/grafana
+
+persistence:
+  enabled: true
